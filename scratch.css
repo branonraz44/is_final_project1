@@ -1,0 +1,92 @@
+/* Requirement: Stylesheet created from scratch */
+
+/* Requirement: Style that specifies font family */
+body {
+    font-family: 'Verdana', Geneva, sans-serif;
+    background-color: #001f3f; /* Deep Navy Blue */
+    margin: 0;
+    padding: 20px;
+    color: #ffffff; /* Requirement: Style that specifies font color */
+}
+
+nav a {
+    color: #c5a059;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    border-bottom: 4px solid #c5a059;
+    padding-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 300;
+    color: #dddddd;
+    margin-bottom: 40px;
+}
+
+/* Requirement: At least three divs for positioning (Flexbox grid) */
+.main-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.content-block {
+    background-color: #003366; /* Lighter Navy */
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    border: 1px solid #c5a059;
+}
+
+/* Specific styling for the list section */
+.argument-section ol {
+    margin-left: 20px;
+    font-size: 1.1rem;
+}
+
+.argument-section ul {
+    margin-top: 5px;
+    color: #aaccff; /* Light blue text for nested items */
+    font-size: 0.95rem;
+}
+
+/* Specific styling for media */
+.stadium-img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border: 3px solid #fff;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+.caption {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+a {
+    color: #c5a059;
+}
